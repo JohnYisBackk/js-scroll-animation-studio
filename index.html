@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Scroll Animation Studio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ============================================= -->
+    <!-- SCROLL PROGRESS BAR -->
+    <!-- ============================================= -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- ============================================= -->
+    <!-- HEADER -->
+    <!-- ============================================= -->
+    <header class="header">
+      <div class="container header-container">
+        <a href="#" class="logo">ScrollStudio</a>
+
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#stats">Stats</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============================================= -->
+      <!-- HERO SECTION -->
+      <!-- ============================================= -->
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <span class="hero-badge reveal-up threshold-low">
+              Modern Motion Experience
+            </span>
+
+            <h1 class="hero-title reveal-up threshold-low">
+              Build premium websites with smooth scroll animation effects.
+            </h1>
+
+            <p class="hero-text reveal-up threshold-medium">
+              A modern one-page concept focused on reveal animations, clean
+              layouts, and strong visual presentation for portfolio-ready
+              projects.
+            </p>
+
+            <div class="hero-actions reveal-up threshold-medium">
+              <a href="#work" class="btn btn-primary">Explore Work</a>
+              <a href="#services" class="btn btn-secondary">View Services</a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal-right threshold-medium">
+            <div class="hero-card">
+              <p class="hero-card-label">Featured Motion Block</p>
+              <h2>Creative Scroll Interactions</h2>
+              <p>
+                Fade, slide, scale, and layered section reveals built for modern
+                interfaces.
+              </p>
+
+              <div class="hero-mini-grid">
+                <div class="mini-box"></div>
+                <div class="mini-box"></div>
+                <div class="mini-box"></div>
+                <div class="mini-box"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================= -->
+      <!-- ABOUT SECTION -->
+      <!-- ============================================= -->
+      <section class="section about" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-label reveal-left threshold-low">
+              About Studio
+            </span>
+
+            <h2 class="section-title reveal-left threshold-low">
+              Designed to practice modern scroll-based UI animation.
+            </h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-text reveal-up threshold-medium">
+              <p>
+                This project is focused on improving animation logic using
+                JavaScript and Intersection Observer. It helps practice reveal
+                effects from different directions while keeping the layout clean
+                and professional.
+              </p>
+
+              <p>
+                The goal is not just to create a nice landing page, but to build
+                a reusable animation system for future websites and portfolio
+                work.
+              </p>
+            </div>
+
+            <div class="about-panel reveal-right threshold-medium">
+              <div class="about-card">
+                <h3>What you practise here</h3>
+                <ul>
+                  <li>Scroll progress bar</li>
+                  <li>Sticky header effects</li>
+                  <li>Reveal-up animations</li>
+                  <li>Reveal-left and reveal-right transitions</li>
+                  <li>Scale-in section effects</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================= -->
+      <!-- SERVICES SECTION -->
+      <!-- ============================================= -->
+      <section class="section services" id="services">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="section-label reveal-up threshold-low">
+              Core Features
+            </span>
+
+            <h2 class="section-title reveal-up threshold-low">
+              Scroll-driven motion for modern landing pages.
+            </h2>
+          </div>
+
+          <div class="services-grid">
+            <article
+              class="service-card reveal-up stagger-item threshold-medium"
+            >
+              <span class="service-number">01</span>
+              <h3>Reveal Animations</h3>
+              <p>
+                Animate sections smoothly as they enter the viewport for a more
+                premium visual experience.
+              </p>
+            </article>
+
+            <article
+              class="service-card reveal-up stagger-item threshold-medium"
+            >
+              <span class="service-number">02</span>
+              <h3>Responsive Layout</h3>
+              <p>
+                Build a clean structure that looks balanced across desktop,
+                tablet, and mobile screens.
+              </p>
+            </article>
+
+            <article
+              class="service-card reveal-up stagger-item threshold-medium"
+            >
+              <span class="service-number">03</span>
+              <h3>Reusable UI System</h3>
+              <p>
+                Create animation classes and layout patterns that can be reused
+                in future front-end projects.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================= -->
+      <!-- FEATURED WORK SECTION -->
+      <!-- ============================================= -->
+      <section class="section work" id="work">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-label reveal-left threshold-low">
+              Featured Work
+            </span>
+
+            <h2 class="section-title reveal-left threshold-low">
+              Layout blocks made for strong visual presentation.
+            </h2>
+          </div>
+
+          <div class="work-grid">
+            <article
+              class="work-card reveal-left stagger-item threshold-medium"
+            >
+              <div class="work-image"></div>
+              <div class="work-content">
+                <h3>Studio Landing</h3>
+                <p>
+                  A clean visual concept focused on typography, spacing, and
+                  modern interaction.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="work-card reveal-right stagger-item threshold-medium"
+            >
+              <div class="work-image"></div>
+              <div class="work-content">
+                <h3>Motion Showcase</h3>
+                <p>
+                  A layout idea designed to highlight scroll reveal effects and
+                  animated content blocks.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="work-card reveal-left stagger-item threshold-medium"
+            >
+              <div class="work-image"></div>
+              <div class="work-content">
+                <h3>Creative Portfolio</h3>
+                <p>
+                  A strong portfolio section structure with cards, spacing, and
+                  responsive alignment.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="work-card reveal-right stagger-item threshold-medium"
+            >
+              <div class="work-image"></div>
+              <div class="work-content">
+                <h3>Interactive Agency</h3>
+                <p>
+                  A premium one-page style concept that feels modern and
+                  polished for presentation work.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================= -->
+      <!-- STATS SECTION -->
+      <!-- ============================================= -->
+      <section class="section stats" id="stats">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="section-label reveal-scale threshold-low">
+              Performance Metrics
+            </span>
+
+            <h2 class="section-title reveal-scale threshold-low">
+              Designed to feel smooth, minimal, and high-end.
+            </h2>
+          </div>
+
+          <div class="stats-grid">
+            <article class="stat-card reveal-scale threshold-high">
+              <h3>4</h3>
+              <p>Reveal animation types</p>
+            </article>
+
+            <article class="stat-card reveal-scale threshold-high">
+              <h3>100%</h3>
+              <p>Responsive layout structure</p>
+            </article>
+
+            <article class="stat-card reveal-scale threshold-high">
+              <h3>1</h3>
+              <p>Reusable animation system</p>
+            </article>
+
+            <article class="stat-card reveal-scale threshold-high">
+              <h3>∞</h3>
+              <p>Future project potential</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================= -->
+      <!-- CONTACT / CTA SECTION -->
+      <!-- ============================================= -->
+      <section class="section contact" id="contact">
+        <div class="container">
+          <div class="contact-box reveal-up threshold-medium">
+            <span class="section-label reveal-up threshold-low">
+              Start Building
+            </span>
+
+            <h2 class="section-title reveal-up threshold-low">
+              Create websites that feel more alive with scroll interaction.
+            </h2>
+
+            <p class="reveal-up threshold-medium">
+              Practice structure, polish, and motion in one project — then reuse
+              the same animation system in your future portfolio work.
+            </p>
+
+            <a href="#" class="btn btn-primary reveal-up threshold-medium">
+              Start the Next Project
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
