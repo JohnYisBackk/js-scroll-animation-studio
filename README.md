@@ -8,7 +8,7 @@ This project demonstrates how to use the Intersection Observer API to create pro
 
 ## 🚀 Live Demo
 
-👉 
+👉 https://johnyisbackk.github.io/js-scroll-animation-studio/
 
 ---
 
